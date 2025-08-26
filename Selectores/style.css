@@ -1,0 +1,20 @@
+a[target] {
+    color: #E74C3C;
+}
+
+button:hover {
+    background-color: #2ECC71;
+    color: white;
+    cursor: pointer;
+}
+
+div > p {
+    font-weight: bold;
+    border-left: 3px solid #3498DB;
+    padding-left: 10px;
+  }
+
+p::first-letter {
+    font-size: 2em;
+    color: #9B59B6;
+}
